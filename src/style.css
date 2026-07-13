@@ -982,4 +982,42 @@ body {
   background: #16a085;
 }
 
+/* General hero links */
+.hero a,
+.hero1 a,
+.hero2 a,
+.hero3 a,
+.hero4 a {
+  color: #fff;              /* force white text */
+  text-decoration: underline; /* keep underline if you want */
+  cursor: pointer;
+  position: relative;
+  z-index: 10;              /* ensures link is above overlays */
+}
+
+/* Optional hover effect */
+.hero a:hover,
+.hero1 a:hover,
+.hero2 a:hover,
+.hero3 a:hover,
+.hero4 a:hover {
+  color: #1abc9c;           /* turquoise highlight on hover */
+}
+
+.hero4 .contact-hero a{
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
