@@ -785,6 +785,7 @@ body {
   color: #fff;
   text-align: center;
   padding: 80px 20px;
+  
 }
 
 /* Destination Grid */
@@ -839,6 +840,15 @@ body {
 .destination-card .btn:hover {
   background: #16a085;
 }
+
+.hero a {
+  color: #fff;
+  text-decoration: underline;
+  cursor: pointer;
+  position: relative;
+  z-index: 10;
+}
+
 
 /* Hero Section for Activities */
 .activities-hero {
@@ -900,6 +910,15 @@ body {
 .activity-card .btn:hover {
   background: #16a085;
 }
+
+.hero a {
+  color: #fff;
+  text-decoration: underline;
+  cursor: pointer;
+  position: relative;
+  z-index: 10;
+}
+
 
 /* Hero Section for Contact */
 .contact-hero {
